@@ -1,0 +1,33 @@
+- name: "Workshop on Smart Antennas"
+  abbreviation: "WSA"
+  url: "https://wsa-scc-2023.org/"
+  organization: "vde"
+  topic: "Signal Processing"
+  type: "workshop"
+  description: >
+    A prestigious international forum for the latest results on communication
+    and information theory, related signal processing algorithms, and
+    experimental results for wireless communications, with special focus on
+    multiantenna (MIMO) systems. The objective of this event is to continue,
+    accelerate, and broaden the momentum which has been gained through a series
+    of ITG workshops which started in 1996.
+  dates: !!seq
+    - [2023-02-27, 2023-03-03]
+  deadline:
+    - 2022-11-21
+
+- name: "Conference on Systems, Communications and Coding"
+  abbreviation: "SCC"
+  url: "https://wsa-scc-2023.org/"
+  organization: "vde"
+  topic: "Communications"
+  type: "workshop"
+  description: >
+    SCC aims at bridging the gap between theory, applications and various
+    communities in the field of communications. Therefore, we encourage
+    contributions from both academia and industry, theoretical work as well as
+    applied research in various fields of communications.
+  dates: !!seq
+    - [2023-02-27, 2023-03-03]
+  deadline:
+    - 2022-11-21

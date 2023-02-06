@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Conference Calendar &ndash; {{ title }}</title>
+		<link rel="stylesheet" href="main.css">
+	</head>
+	<body>
+		<nav>
+			<ul>
+				<li><a href="index.html">Conference Dates</a></li>
+				<li><a href="deadlines.html">Submission Deadlines</a></li>
+			</ul>
+		</nav>
+
+		<main>
+		{% set this_year, this_week, this_day = today.isocalendar() %}
+		<h1>{{ title }}</h1>
+		{% for year, week_data in conf_data.items() | sort %}
+		<section class="year">
+			<h2>{{ year }}</h2>
+			<section class="weeks">
+			{% for week in range(52) %}
+			{% set week = week+1 %}
+			<div class="week{% if week == this_week and year == this_year %} this-week{% endif %}{% if week < this_week and year <= this_year %} past-week{% endif %}">
+				<h1 class="weekdates">{{ week | weekdates }}</h1>
+				{% if week_data[week] %}
+				<div class="conferences">
+					{# <h2>Conferences</h2> #}
+					<ul class="conflist">
+					{% for conference in week_data[week] | sort(attribute='abbreviation') %}
+					{% set topic = conference.topic | lower | replace(" ", "-") %}
+					<li class="{{ 'topic-' ~ topic }} {{ conference.type }}"><a href="#{{ conference.abbreviation }}">{{ conference.abbreviation }}</a></li>
+					{% endfor %}
+					</ul>
+				</div>
+				{% endif %}
+			</div>
+			{% endfor %}
+			</section>
+		</section>
+		{% endfor %}
+		
+		<section id="conferences">
+			<h1>Conferences</h1>
+			{#
+			<ul>
+			{% for conference in conferences | sort(attribute='abbreviation') %}
+			<li id="{{ conference.abbreviation }}">{{ conference.abbreviation }}: <a href="{{ conference.url }}">{{ conference.name }}</a></li>
+			{% endfor %}
+			</ul>
+			#}
+			<table>
+				<tr>
+					<th>Conference</th>
+					<th>Abbreviation</th>
+					<th>Deadline</th>
+				</tr>
+				{% for conference in conferences | sort(attribute='abbreviation') %}
+				<tr id="{{ conference.abbreviation }}">
+					<td><a href="{{ conference.url }}">{{ conference.name }}</a></td>
+					<td>{{ conference.abbreviation }}</td>
+					<td>{{ conference.get("deadline", ["&mdash;"])[-1] }}</td>
+				</tr>
+				{% endfor %}
+			</table>
+		</section>
+
+		<p>Latest update: {{ timestamp }} </p>
+		</main>
+	</body>
+</html>
+

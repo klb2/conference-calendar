@@ -1,0 +1,138 @@
+- name: "IEEE International Conference on Communications"
+  abbreviation: "ICC"
+  url: "https://www.ieee-icc.org/"
+  organization: "comsoc"
+  topic: "Communications"
+  type: "flagship"
+  description: >
+    Featuring the latest developments in telecommunications from a technical
+    perspective. Subjects include Communications Theory, Wireless
+    Communications, Wireless Networking, Optical Networking, Next Generation
+    Networks for Universal Services, Multimedia Communication and Home
+    Networking, Signal Processing for Communications, Communications QoS,
+    Reliability and Performance Modeling.
+  dates: !!seq
+    - [2023-05-28, 2023-06-01]
+    - [2024-06-09, 2024-06-13]
+  deadline:
+    - 2022-11-13
+
+- name: "IEEE Global Communications Conference"
+  abbreviation: "GLOBECOM"
+  url: "https://www.ieee-globecom.org/"
+  organization: "comsoc"
+  topic: "Communications"
+  type: "flagship"
+  description: >
+    IEEE Global Communications Conference (GLOBECOM) is one of the IEEE
+    Communications organization’s two flagship conferences dedicated to driving
+    innovation in nearly every aspect of communications. Each year, more than
+    2,900 scientific researchers and their management submit proposals for
+    program sessions to be held at the annual conference. After extensive peer
+    review, the best of the proposals are selected for the conference program,
+    which includes technical papers, tutorials, workshops and industry sessions
+    designed specifically to advance technologies, systems and infrastructure
+    that are continuing to reshape the world and provide all users with access
+    to an unprecedented spectrum of high-speed, seamless and cost-effective
+    global telecommunications services.
+  dates: !!seq
+    - [2023-12-04, 2023-12-08]
+  deadline:
+    - 2023-04-15
+
+- name: "IEEE Consumer Communications & Networking Conference"
+  abbreviation: "CCNC"
+  url: "https://ccnc2023.ieee-ccnc.org/"
+  organization: "comsoc"
+  topic: "Communications"
+  type: "conference"
+  description: >
+    CCNC represents a singular opportunity for consumer electronic
+    manufacturers to join with communications and networking manufacturers and
+    service providers. It represents the latest approaches and technical
+    solutions in the area of home networking and consumer networking.
+  dates: !!seq
+    - [2023-01-08, 2023-01-11]
+  deadline:
+    - 2022-08-28
+
+- name: "IEEE International Conference on Computer Communications"
+  abbreviation: "INFOCOM"
+  url: "http://www.ieee-infocom.org/"
+  organization: "comsoc"
+  topic: "Communications"
+  type: "conference"
+  description: >
+    Addressing key issues related to recent advances in computer communications
+    and networking. Bringing researchers, practitioners together to present the
+    most up-to-date achievements.
+  dates: !!seq
+    - [ 2023-05-17, 2023-05-20 ]
+  deadline:
+    - 2022-08-01
+
+- name: "IEEE Wireless Communications and Networking Conference"
+  abbreviation: "WCNC"
+  url: "http://www.ieee-wcnc.org/"
+  organization: "comsoc"
+  topic: "Communications"
+  type: "conference"
+  description: >
+    WCNC, one of the world’s foremost international technical conferences for
+    engineers and researchers in wireless technologies, offers the best and
+    most current tutorials, research results, industry-oriented technical
+    content and perspectives on wireless communications, networksnand systems.
+  dates: !!seq
+    - [ 2023-03-26, 2023-03-29 ]
+  deadline:
+    - 2023-01-13
+
+- name: "IEEE Conference on Communications and Network Security"
+  abbreviation: "CNS"
+  url: "http://www.ieee-cns.org/"
+  organization: "comsoc"
+  topic: "Communications"
+  type: "workshop"
+  description: >
+    Dedicated to Communications and Network Security, IEEE CNS will focus on
+    the communications-oriented aspects of security and will serve as a premier
+    forum for mobile, wireless, and communications cyber security researchers,
+    practitioners, policy makers, and users to exchange ideas, techniques and
+    tools, raise awareness, and share experience related to security and
+    privacy. Topics of interest encompass all practical and theoretical aspects
+    of communications and network security, from the physical layer to the
+    various network layers to the variety of applications reliant on a secure
+    communication substrate.
+  dates: !!seq
+    - [ 2023-10-03, 2023-10-05 ]
+  deadline:
+    - 2022-06-22
+
+- name: "IEEE Communications Theory Workshop"
+  abbreviation: "CTW"
+  url: "http://www.ieee-ctw.org/"
+  organization: "comsoc"
+  topic: "Communications"
+  type: "workshop"
+  description: >
+    The workshop is held every Spring and features invited talks on the latest
+    research in communication theory from the world's leading researchers.
+  dates: !!seq
+    - [ 2023-07-02, 2023-07-05 ]
+  deadline:
+    - 2023-04-15
+
+- name: "IEEE International Symposium on Personal, Indoor and Mobile Radio Communications"
+  abbreviation: "PIMRC"
+  url: "http://www.ieee-pimrc.org/"
+  organization: "comsoc"
+  topic: "Communications"
+  type: "workshop"
+  description: >
+    PIMRC has attracted major figures in the cellular, PCS, wireless LAN, and
+    mobile data industries. Conference topics are presented in keynotes,
+    tutorials, technical, and panel sessions.
+  dates: !!seq
+    - [2023-09-05, 2023-09-08]
+  deadline:
+    - 2023-03-18

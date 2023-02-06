@@ -1,0 +1,95 @@
+import os
+from datetime import date
+from typing import Iterable
+import itertools
+
+#import pandas as pd
+import jinja2
+import yaml
+
+from constants import (DIR_TEMPLATES, DIR_PUBLIC, DIR_DATA,
+                       COL_CONF_TYPE,
+                       MAP_CONF_TYPE,
+                      )
+
+FORMATTER_DATE = lambda x: date.strftime(x, "%B %d, %Y")
+
+def load_data():
+    yml_files = [x for x in os.listdir(DIR_DATA) if x.endswith(".yml")]
+    data = []
+    for _file in yml_files:
+        print(_file)
+        _file_path = os.path.join(DIR_DATA, _file)
+        with open(_file_path, 'r') as yml_file:
+            data.extend(yaml.safe_load(yml_file))
+    return data
+
+def create_conference_table(conf_list: Iterable, year: int=date.today().year):
+    week_data = {k+1: [] for k in range(52)}
+    deadline_data = {k+1: [] for k in range(52)}
+    for conference in conf_list:
+        #conference["type"] = MAP_CONF_TYPE.get(conference.get("type", "Unknown"), "unknown")
+        conference['type'] = conference.get("type", "unknown")
+        dates = conference.get("dates")
+        if dates is None:# or len(dates) != 2:
+            continue
+        for _conf_dates in dates:
+            _start_date, _end_date = _conf_dates
+            if _start_date.year != year:
+                continue
+            start_week = _start_date.isocalendar()[1]
+            week_data[start_week].append(conference)
+            end_week = _end_date.isocalendar()[1]
+            if end_week != start_week:
+                week_data[end_week].append(conference)
+        deadlines = conference.get("deadline")
+        if deadlines is None:
+            continue
+        for deadline in deadlines:
+            if deadline.year != year:
+                continue
+            deadline_week = deadline.isocalendar()[1]
+            deadline_data[deadline_week].append(conference)
+    return week_data, deadline_data
+
+def week_days_format(week: int, year=date.today().year, format="%b %d"):
+    first_day = date.fromisocalendar(year, week, 1)
+    last_day = date.fromisocalendar(year, week, 7)
+    _text = "{} &ndash; {}".format(first_day.strftime(format),
+                                   last_day.strftime(format))
+    return _text
+
+def main():
+    data = load_data()
+    #print(week_data)
+
+    env = jinja2.Environment(loader=jinja2.FileSystemLoader(DIR_TEMPLATES))
+    env.filters['weekdates'] = week_days_format
+    #template = env.get_template("index.html")
+    template = env.get_template("weeks.html")
+
+    today = date.today()
+    timestamp = today.strftime("%B %d, %Y")
+
+
+    week_data = {}
+    deadline_data = {}
+    for year in [today.year, today.year+1]:
+        _week_data, _deadline_data = create_conference_table(data, year)
+        week_data[year] = _week_data
+        deadline_data[year] = _deadline_data
+    datasets = [("Conference Dates", "index.html", week_data),
+                ("Submission Deadlines", "deadlines.html", deadline_data),
+                ]
+    for _title, _html_file, _data in datasets:
+        content = template.render(conferences=data,
+                                  conf_data=_data,
+                                  title=_title,
+                                  timestamp=timestamp,
+                                  today=today)
+        out_path = os.path.join(DIR_PUBLIC, _html_file)
+        with open(out_path, 'w') as html_file:
+            html_file.write(content)
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,51 @@
+- name: "IEEE International Symposium on Information Theory"
+  abbreviation: "ISIT"
+  url: "https://www.itsoc.org/conferences/isit"
+  organization: "itsoc"
+  topic: "Information Theory"
+  type: "flagship"
+  description: >
+    The IEEE International Symposium on Information Theory, or ISIT, is the
+    flagship conference of the IEEE Information Theory Society. The symposium
+    centers around the presentation of previously unpublished contributions in
+    all of the areas of information theory, including source and channel
+    coding, communication theory and systems, cryptography and security,
+    detection and estimation, networks, pattern recognition and learning,
+    statistics, stochastic processes and complexity, and signal processing.
+    Furthermore, it provides an open forum to discuss and exchange with other
+    researchers on any of these topics.
+  dates: !!seq
+    - [2023-06-25, 2023-06-30]
+  deadline:
+    - 2023-01-03
+
+- name: "IEEE Information Theory Workshop"
+  abbreviation: "ITW"
+  url: "https://www.itsoc.org/page/ieee-information-theory-workshop"
+  organization: "itsoc"
+  topic: "Information Theory"
+  type: "workshop"
+  description: >
+    An IEEE Information Theory Workshop (ITW) is typically a small gathering
+    that focuses on topics related to information theory. Every edition of the
+    workshop possesses a different theme or emphasis. The venue of the workshop
+    changes from year to year, and there may be several editions of the
+    workshop within a calendar year.
+  dates: !!seq
+    - [2023-04-23, 2023-04-28]
+  deadline:
+    - 2022-12-18
+
+- name: "Conference on Information Sciences and Systems"
+  abbreviation: "CISS"
+  url: "https://ciss.jhu.edu/"
+  topic: "Information Theory"
+  type: "workshop"
+  description: >
+    A forum for scientists, engineers, and academics to present their latest
+    research results and developments in multiple areas of Information Sciences
+    and Systems.
+  dates: !!seq
+    - [2023-03-22, 2023-03-24]
+  deadline:
+    - 2022-12-20

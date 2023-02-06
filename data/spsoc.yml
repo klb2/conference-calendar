@@ -1,0 +1,75 @@
+- name: "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+  abbreviation: "ICASSP"
+  url: "https://2023.ieeeicassp.org/"
+  organization: "spsoc"
+  topic: "Signal Processing"
+  type: "flagship"
+  description: >
+    ICASSP is the world's largest and most comprehensive technical conference
+    on signal processing and its applications. It provides a fantastic
+    networking opportunity for like-minded professionals from around the world.
+  dates: !!seq
+    - [2023-06-04, 2023-06-10]
+  deadline:
+    - 2022-10-26
+
+- name: "IEEE International Workshop on Computational Advances in Multi-Sensor Adaptive Processing"
+  abbreviation: "CAMSAP"
+  url: ""
+  organization: "spsoc"
+  topic: "Signal Processing"
+  type: "workshop"
+  description: >
+    CAMSAP workshop features a number of plenary talks from the world’s leading
+    researchers in the area, special focus sessions, and contributed papers.
+
+- name: "IEEE Workshop on Machine Learning for Signal Processing"
+  abbreviation: "MLSP"
+  url: "https://2023.ieeemlsp.org/"
+  organization: "spsoc"
+  topic: "Signal Processing"
+  type: "workshop"
+  description: >
+    MLSP Workshop presents the most recent and exciting advances in machine
+    learning for signal processing through keynote talks, tutorials, as well as
+    special and regular single-track sessions.
+
+- name: "IEEE Workshop on Signal Processing Advances in Wireless Communications"
+  abbreviation: "SPAWC"
+  url: "https://2022.ieeespawc.org/"
+  organization: "spsoc"
+  topic: "Signal Processing"
+  type: "workshop"
+  description: >
+    SPAWC features the latest scientific results on wireless communication
+    systems and networks.
+  dates: !!seq
+    - [2023-09-25, 2023-09-28]
+
+- name: "IEEE International Workshop on Information Forensics and Security"
+  abbreviation: "WIFS"
+  url: ""
+  organization: "spsoc"
+  topic: "Signal Processing"
+  type: "workshop"
+  description: >
+    WIFS brings together researchers from relevant disciplines to exchange new
+    ideas and the latest results and to discuss emerging challenges in
+    different areas of information security.
+
+- name: "Asilomar Conference on Signals, Systems, and Computers"
+  abbreviation: "Asilomar"
+  url: "https://www.asilomarsscconf.org/"
+  organization: "spsoc"
+  topic: "Signal Processing"
+  type: "conference"
+  description: >
+    The Asilomar Conference on Signals, Systems, and Computers is a yearly
+    Conference held on the Asilomar Grounds in Pacific Grove, CA, USA. The IEEE
+    Signal Processing Society is a technical co-sponsor. It provides a forum
+    for presenting recent and novel work in various areas of theoretical and
+    applied signal processing.
+  dates: !!seq
+    - [2023-10-29, 2023-11-01]
+  deadline:
+    - 2023-05-01

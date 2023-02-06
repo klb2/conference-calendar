@@ -1,0 +1,107 @@
+:root {
+	--color-bg: #fdfdfd;
+	--color-bg-dark: #f0f0f0;
+	--color-fg: #222;
+	--color-accent: #393;
+}
+
+body {
+	--webkit-font-smoothing: antialiased;
+	--moz-osx-font-smoothing: grayscale;
+	background-color: var(--color-bg);
+	color: var(--color-fg);
+	font-size: 12pt;
+	font-family: 'Open Sans', sans-serif;
+}
+
+::-moz-selection {
+  background: var(--color-accent);
+  color: var(--color-bg);
+}
+::selection {
+  background: var(--color-accent);
+  color: var(--color-bg);
+}
+
+a {
+	color: var(--color-fg);
+}
+
+nav ul {
+	list-style-type: none;
+	display: flex;
+	padding: 0px;
+}
+
+nav ul li {
+	padding: 0px 15px;
+	font-size: 18pt;
+}
+
+nav ul li a {
+	color: var(--color-accent);
+}
+
+section.weeks {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: stretch;
+	gap: 10px 10px;
+}
+
+div.week {
+	/*border: 2px black solid;*/
+	width: 20%;
+	flex-grow: 1;
+	padding: 5px 15px;
+	background-color: var(--color-bg-dark);
+}
+
+div.week h1 {
+	font-size: 14pt;
+}
+
+div.this-week {
+	border: 5px solid;
+	border-color: var(--color-accent);
+	/*box-shadow: inset 5px var(--color-accent);*/
+}
+
+div.past-week {
+	/*background-color: #ddd;*/
+	opacity: 60%;
+	filter: brightness(0.8);
+}
+
+ul.conflist {
+	list-style-type: none;
+	padding: 0;
+}
+
+ul.conflist li {
+}
+
+.topic-signal-processing {
+	background-color: #9ee493;
+}
+.topic-communications {
+	background-color: #f29195;
+}
+.topic-information-theory {
+	background-color: #7bdff2;
+}
+.topic-vehicular-technology {
+	background-color: #ffbb5c;
+}
+
+.flagship {
+	filter: saturate(200%);
+}
+.conference {
+	filter: saturate(100%);
+}
+.workshop {
+	filter: saturate(80%);
+}

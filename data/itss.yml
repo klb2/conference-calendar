@@ -1,0 +1,35 @@
+- name: "IEEE Vehicular Networking Conference"
+  abbreviation: "VNC"
+  url: "http://www.ieee-vnc.org/"
+  organization: "itss;comsoc"
+  topic: "Vehicular Technology"
+  type: "conference"
+  description: >
+    IEEE Vehicular Networking Conference seeks to bring together researchers,
+    professionals, and practitioners to present and discuss recent developments
+    and challenges in vehicular networking (e.g., vehicle-to-vehicle and
+    vehicle-to-infrastructure communications) technologies, and their
+    applications (e.g., driving safety, traffic congestion reduction, mobile
+    infotainment).
+  dates: !!seq
+    - [2023-04-26, 2023-04-28]
+  deadline:
+    - 2023-01-27
+
+- name: "IEEE Intelligent Transportation Systems Conference"
+  abbreviation: "ITSC"
+  url: "https://www.ieee-itsc.org/"
+  organization: "itss"
+  topic: "Vehicular Technology"
+  type: "flagship"
+  description: >
+    The IEEE International Conference on Intelligent Transportation Systems
+    (ITSC) is an annual flagship conference of the IEEE Intelligent
+    Transportation Systems Society (ITSS). Researchers, engineers,
+    practitioners, and students, from industry, universities and government
+    agencies are invited to present their latest work and to discuss research
+    and applications for intelligent vehicles and vehicle-infrastructure
+    cooperation. ITSC welcomes articles in the field of intelligent vehicles
+    dealing with new developments in theory and applications, vehicle
+    technologies and demonstrations. It also welcomes proposals for workshops
+    and tutorial sessions to be offered the day before the symposium.
