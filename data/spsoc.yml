@@ -45,6 +45,8 @@
     systems and networks.
   dates: !!seq
     - [2023-09-25, 2023-09-28]
+  deadline:
+    - 2023-04-02
 
 - name: "IEEE International Workshop on Information Forensics and Security"
   abbreviation: "WIFS"
