@@ -27,6 +27,27 @@ a {
 	color: var(--color-fg);
 }
 
+
+table {
+	max-width: 100%;
+	border-collapse: collapse;
+	border-bottom: 1px solid var(--color-accent);
+	border-top: 1px solid var(--color-accent);
+}
+
+td, th {
+	height: 50px;
+	vertical-align: middle;
+	padding: 3px 15px;
+}
+thead {
+	text-align: center;
+	border-bottom: 1px solid var(--color-accent);
+}
+tr:hover {
+	background-color: var(--color-bg-dark);
+}
+
 nav ul {
 	list-style-type: none;
 	display: flex;
