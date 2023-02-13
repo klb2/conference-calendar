@@ -15,13 +15,17 @@
 
 - name: "IEEE International Workshop on Computational Advances in Multi-Sensor Adaptive Processing"
   abbreviation: "CAMSAP"
-  url: ""
+  url: "https://camsap23.ig.umons.ac.be/index.php"
   organization: "spsoc"
   topic: "Signal Processing"
   type: "workshop"
   description: >
     CAMSAP workshop features a number of plenary talks from the world’s leading
     researchers in the area, special focus sessions, and contributed papers.
+  dates: !!seq
+    - [2023-12-10, 2023-10-13]
+  deadline:
+    - 2023-05-01
 
 - name: "IEEE Workshop on Machine Learning for Signal Processing"
   abbreviation: "MLSP"
@@ -33,6 +37,10 @@
     MLSP Workshop presents the most recent and exciting advances in machine
     learning for signal processing through keynote talks, tutorials, as well as
     special and regular single-track sessions.
+  dates: !!seq
+    - [2023-09-17, 2023-09-20]
+  deadline:
+    - 2023-04-28
 
 - name: "IEEE Workshop on Signal Processing Advances in Wireless Communications"
   abbreviation: "SPAWC"

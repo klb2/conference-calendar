@@ -33,3 +33,7 @@
     dealing with new developments in theory and applications, vehicle
     technologies and demonstrations. It also welcomes proposals for workshops
     and tutorial sessions to be offered the day before the symposium.
+  dates: !!seq
+    - [2023-09-24, 2023-09-28]
+  deadline:
+    - 2023-05-15
