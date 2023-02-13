@@ -44,7 +44,15 @@ thead {
 	text-align: center;
 	border-bottom: 1px solid var(--color-accent);
 }
-tr:hover {
+/*
+thead th:nth-child(1) {
+  width: 60%;
+}
+*/
+tbody tr:nth-child(odd){
+  background-color: #f8f8f8;
+}
+tbody tr:hover {
 	background-color: var(--color-bg-dark);
 }
 
