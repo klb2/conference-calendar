@@ -110,13 +110,26 @@ ul.conflist {
 }
 
 ul.conflist li {
+	padding: 2px 5px;
+}
+
+ul.legend-list {
+	list-style-type: none;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+ul.legend-list li {
+	margin: 0px 10px;
+	padding: 2px 5px;
 }
 
 .topic-signal-processing {
 	background-color: #9ee493;
 }
 .topic-communications {
-	background-color: #f29195;
+	/*background-color: #f29195;*/
+	background-color: #F18383;
 }
 .topic-information-theory {
 	background-color: #7bdff2;
