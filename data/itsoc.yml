@@ -49,3 +49,19 @@
     - [2023-03-22, 2023-03-24]
   deadline:
     - 2022-12-20
+
+- name: "International Symposium on Modeling and Optimization in Mobile, Ad hoc, and Wireless Networks"
+  abbreviation: "WiOpt"
+  url: "https://esd.sutd.edu.sg/wiopt2023/index.html"
+  topic: "Information Theory"
+  type: "workshop"
+  description: >
+    It welcomes original and high-quality submissions related to modeling,
+    performance evaluation, and optimization of networks. The focus includes
+    but is not limited to mobile networks, edge computing, intelligent
+    networks, content-driven networks, cognitive networks, vehicular networks,
+    robotic systems, Internet.
+  dates: !!seq
+    - [2023-08-24, 2023-08-27]
+  deadline:
+    - 2023-03-31
