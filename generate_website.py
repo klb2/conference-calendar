@@ -71,6 +71,26 @@ def main():
     today = date.today()
     timestamp = today.strftime("%B %d, %Y")
 
+    import icalendar
+    cal = icalendar.Calendar()
+    cal_deadline = icalendar.Calendar()
+    for conference in data:
+        for start_date, end_date in conference.get("dates", []):
+            event = icalendar.Event()
+            event.add("summary", conference['name'])
+            event.add("dtstart", start_date)
+            event.add("dtend", end_date)
+            cal.add_component(event)
+        for deadline in conference.get("deadline", []):
+            event = icalendar.Event()
+            event.add("summary", conference['name'])
+            event.add("dtstart", deadline)
+            cal_deadline.add_component(event)
+    with open(os.path.join(DIR_PUBLIC, "conferences.ics"), "wb") as ics_file:
+        ics_file.write(cal.to_ical())
+    with open(os.path.join(DIR_PUBLIC, "deadlines.ics"), "wb") as ics_file:
+        ics_file.write(cal_deadline.to_ical())
+
 
     week_data = {}
     deadline_data = {}
