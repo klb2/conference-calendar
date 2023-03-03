@@ -73,16 +73,25 @@ def main():
 
     import icalendar
     cal = icalendar.Calendar()
+    cal.add("prodid", "-//Conference Calendar//Conference Calendar//EN")
+    cal.add("version", "2.0")
     cal_deadline = icalendar.Calendar()
     for conference in data:
         for start_date, end_date in conference.get("dates", []):
             event = icalendar.Event()
+            uid = "{:%Y%m%d}{:%Y%m%d}-{}".format(start_date, end_date,
+                                                conference["abbreviation"])
+            event.add("uid", uid)
+            event.add("dtstamp", today)
             event.add("summary", conference['name'])
             event.add("dtstart", start_date)
             event.add("dtend", end_date)
             cal.add_component(event)
         for deadline in conference.get("deadline", []):
             event = icalendar.Event()
+            uid = "{:%Y%m%d}-{}".format(deadline, conference["abbreviation"])
+            event.add("uid", uid)
+            event.add("dtstamp", today)
             event.add("summary", conference['name'])
             event.add("dtstart", deadline)
             cal_deadline.add_component(event)
