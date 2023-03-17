@@ -1,3 +1,4 @@
 jinja2
 pandas>=1.5
 pyyaml
+icalendar
