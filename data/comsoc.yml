@@ -38,6 +38,7 @@
     global telecommunications services.
   dates: !!seq
     - [2023-12-04, 2023-12-08]
+    - [2024-12-08, 2024-12-12]
   deadline:
     - 2023-04-15
 
@@ -54,6 +55,7 @@
     solutions in the area of home networking and consumer networking.
   dates: !!seq
     - [2023-01-08, 2023-01-11]
+    - [2024-01-12, 2024-01-15]
   deadline:
     - 2022-08-28
 

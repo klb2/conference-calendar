@@ -10,6 +10,7 @@
     networking opportunity for like-minded professionals from around the world.
   dates: !!seq
     - [2023-06-04, 2023-06-10]
+    - [2024-04-14, 2024-04-19]
   deadline:
     - 2022-10-26
 
@@ -58,7 +59,7 @@
 
 - name: "IEEE International Workshop on Information Forensics and Security"
   abbreviation: "WIFS"
-  url: ""
+  url: "https://wifs2023.fau.de/"
   organization: "spsoc"
   topic: "Signal Processing"
   type: "workshop"
@@ -66,6 +67,10 @@
     WIFS brings together researchers from relevant disciplines to exchange new
     ideas and the latest results and to discuss emerging challenges in
     different areas of information security.
+  dates: !!seq
+    - [2023-12-04, 2023-12-07]
+  deadline:
+    - 2023-06-30
 
 - name: "Asilomar Conference on Signals, Systems, and Computers"
   abbreviation: "Asilomar"
