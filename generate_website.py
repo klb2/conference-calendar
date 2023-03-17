@@ -76,6 +76,8 @@ def main():
     cal.add("prodid", "-//Conference Calendar//Conference Calendar//EN")
     cal.add("version", "2.0")
     cal_deadline = icalendar.Calendar()
+    cal_deadline.add("prodid", "-//Conference Deadlines//Conference Calendar//EN")
+    cal_deadline.add("version", "2.0")
     for conference in data:
         for start_date, end_date in conference.get("dates", []):
             event = icalendar.Event()
