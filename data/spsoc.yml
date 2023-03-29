@@ -45,7 +45,7 @@
 
 - name: "IEEE Workshop on Signal Processing Advances in Wireless Communications"
   abbreviation: "SPAWC"
-  url: "https://2022.ieeespawc.org/"
+  url: "https://2023spawc.aconf.org/index.html"
   organization: "spsoc"
   topic: "Signal Processing"
   type: "workshop"
@@ -55,7 +55,7 @@
   dates: !!seq
     - [2023-09-25, 2023-09-28]
   deadline:
-    - 2023-04-02
+    - 2023-04-16
 
 - name: "IEEE International Workshop on Information Forensics and Security"
   abbreviation: "WIFS"
