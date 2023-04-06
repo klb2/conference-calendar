@@ -71,6 +71,10 @@ nav ul li a {
 	color: var(--color-accent);
 }
 
+section.year {
+	margin-bottom: 50px;
+}
+
 section.weeks {
 	display: flex;
 	flex-wrap: wrap;
