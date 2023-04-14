@@ -40,7 +40,7 @@
     - [2023-12-04, 2023-12-08]
     - [2024-12-08, 2024-12-12]
   deadline:
-    - 2023-04-15
+    - 2023-05-06
 
 - name: "IEEE Consumer Communications & Networking Conference"
   abbreviation: "CCNC"
@@ -123,7 +123,7 @@
   dates: !!seq
     - [ 2023-07-02, 2023-07-05 ]
   deadline:
-    - 2023-04-15
+    - 2023-04-30
 
 - name: "IEEE International Symposium on Personal, Indoor and Mobile Radio Communications"
   abbreviation: "PIMRC"
