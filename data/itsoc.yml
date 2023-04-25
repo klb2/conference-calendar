@@ -38,7 +38,7 @@
 
 - name: "Conference on Information Sciences and Systems"
   abbreviation: "CISS"
-  url: "https://ciss.jhu.edu/"
+  url: "https://ee-ciss.princeton.edu/"
   topic: "Information Theory"
   type: "workshop"
   description: >
@@ -50,6 +50,7 @@
     - [2024-03-13, 2024-03-15]
   deadline:
     - 2022-12-20
+    - 2023-12-01
 
 - name: "International Symposium on Modeling and Optimization in Mobile, Ad hoc, and Wireless Networks"
   abbreviation: "WiOpt"
