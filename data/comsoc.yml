@@ -111,7 +111,7 @@
   dates: !!seq
     - [ 2023-10-03, 2023-10-05 ]
   deadline:
-    - 2022-06-22
+    - 2023-06-12
 
 - name: "IEEE Communications Theory Workshop"
   abbreviation: "CTW"
