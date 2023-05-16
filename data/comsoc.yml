@@ -18,6 +18,19 @@
     - 2022-11-13
     - 2023-10-20
 
+- name: "IEEE ICC Workshops"
+  abbreviation: "ICC Workshops"
+  url: "https://www.ieee-icc.org/"
+  organization: "comsoc"
+  topic: "Communications"
+  type: "workshop"
+  dates: !!seq
+    - [2023-05-28, 2023-06-01]
+    - [2024-06-09, 2024-06-13]
+  deadline:
+    - 2023-02-03
+    - 2024-01-20
+
 - name: "IEEE Global Communications Conference"
   abbreviation: "GLOBECOM"
   url: "https://www.ieee-globecom.org/"
@@ -41,6 +54,18 @@
     - [2024-12-08, 2024-12-12]
   deadline:
     - 2023-05-21
+
+- name: "IEEE Globecom Workshops"
+  abbreviation: "GC Wkshps"
+  url: "https://www.ieee-globecom.org/"
+  organization: "comsoc"
+  topic: "Communications"
+  type: "workshop"
+  dates: !!seq
+    - [2023-12-04, 2023-12-08]
+    - [2024-12-08, 2024-12-12]
+  deadline:
+    - 2023-07-15
 
 - name: "IEEE Consumer Communications & Networking Conference"
   abbreviation: "CCNC"
