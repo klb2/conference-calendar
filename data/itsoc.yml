@@ -67,3 +67,17 @@
     - [2023-08-24, 2023-08-27]
   deadline:
     - 2023-04-24
+
+- name: "Allerton Conference on Communication, Control, and Computing"
+  abbreviation: "Allerton"
+  url: "https://allerton.csl.illinois.edu/"
+  topic: "Information Theory"
+  type: "conference"
+  description: >
+    Each year, the Allerton Conference draws some of the brightest minds from
+    industry, academia, and government to discuss innovation in the fields of
+    communication, control, and computing.
+  dates: !!seq
+    - [2023-09-26, 2023-09-29]
+  deadline:
+    - 2023-07-10
