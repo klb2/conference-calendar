@@ -166,3 +166,22 @@
     - [2023-09-05, 2023-09-08]
   deadline:
     - 2023-03-18
+
+- name: "IEEE International Conference on Machine Learning for Communication and Networking"
+  abbreviation: "ICMLCN"
+  url: "https://ieee-icmlcn.org/"
+  organization: "comsoc"
+  topic: "Communications"
+  type: "conference"
+  description: >
+    The IEEE International Conference on Machine Learning for Communication and
+    Networking (ICMLCN) brings together researchers from the disciplines of
+    Machine Learning (ML) and Communication and Networking, and aims at
+    promoting fundamental and applied research of ML for designing and
+    analyzing communication systems and networks, for developing communication
+    protocols to support ML services, as well as for advancing distributed ML
+    over communication networks.
+  dates: !!seq
+    - [2024-05-05, 2024-05-08]
+  deadline:
+    - 2023-09-15
