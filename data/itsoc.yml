@@ -16,8 +16,9 @@
     researchers on any of these topics.
   dates: !!seq
     - [2023-06-25, 2023-06-30]
+    - [2024-07-07, 2024-07-12]
   deadline:
-    - 2023-01-03
+    - 2023-02-05
 
 - name: "IEEE Information Theory Workshop"
   abbreviation: "ITW"

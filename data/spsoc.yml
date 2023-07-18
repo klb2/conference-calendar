@@ -27,7 +27,7 @@
   dates: !!seq
     - [2023-12-10, 2023-12-13]
   deadline:
-    - 2023-05-01
+    - 2023-07-29
 
 - name: "IEEE Workshop on Machine Learning for Signal Processing"
   abbreviation: "MLSP"
@@ -71,7 +71,7 @@
   dates: !!seq
     - [2023-12-04, 2023-12-07]
   deadline:
-    - 2023-06-30
+    - 2023-07-16
 
 - name: "Asilomar Conference on Signals, Systems, and Computers"
   abbreviation: "Asilomar"
