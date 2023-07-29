@@ -185,3 +185,21 @@
     - [2024-05-05, 2024-05-08]
   deadline:
     - 2023-09-15
+
+- name: "IEEE International Communications Quality and Reliability Workshop"
+  abbreviation: "CQR"
+  url: "https://ieee-cqr.org/"
+  organization: "comsoc"
+  topic: "Communications"
+  type: "workshop"
+  description: >
+    The IEEE CQR International Workshop is held annually with the purpose of
+    bringing together industry and academic experts to present and discuss
+    communications quality, reliability and security issues as they relate to
+    real world issues. The output from the workshops adds to the community’s
+    body of knowledge and serves to inform, help form opinions, and to assist
+    in the development of best practices and relevant standards.
+  dates: !!seq
+    - [2023-10-23, 2023-10-26]
+  deadline:
+    - 2023-08-07
