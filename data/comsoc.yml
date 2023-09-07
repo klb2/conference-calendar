@@ -83,6 +83,7 @@
     - [2024-01-12, 2024-01-15]
   deadline:
     - 2022-08-28
+    - 2023-08-31
 
 - name: "IEEE International Conference on Computer Communications"
   abbreviation: "INFOCOM"
@@ -96,8 +97,10 @@
     most up-to-date achievements.
   dates: !!seq
     - [ 2023-05-17, 2023-05-20 ]
+    - [2024-05-20, 2024-05-23]
   deadline:
     - 2022-08-01
+    - 2023-07-24
 
 - name: "IEEE Wireless Communications and Networking Conference"
   abbreviation: "WCNC"
@@ -164,6 +167,7 @@
     tutorials, technical, and panel sessions.
   dates: !!seq
     - [2023-09-05, 2023-09-08]
+    - [2024-09-02, 2024-09-05]
   deadline:
     - 2023-03-18
 
