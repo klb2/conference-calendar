@@ -1,6 +1,6 @@
 - name: "Workshop on Smart Antennas"
   abbreviation: "WSA"
-  url: "https://wsa-scc-2023.org/"
+  url: "https://wsa2024.org/"
   organization: "vde"
   topic: "Signal Processing"
   type: "workshop"
@@ -13,8 +13,10 @@
     of ITG workshops which started in 1996.
   dates: !!seq
     - [2023-02-27, 2023-03-03]
+    - [2024-03-17, 2024-03-19]
   deadline:
     - 2022-11-21
+    - 2023-11-07
 
 - name: "Conference on Systems, Communications and Coding"
   abbreviation: "SCC"
