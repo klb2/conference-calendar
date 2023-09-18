@@ -118,7 +118,7 @@
     - [ 2024-04-21, 2024-04-24 ]
   deadline:
     - 2022-09-30
-    - 2023-09-11
+    - 2023-10-11
 
 - name: "IEEE Conference on Communications and Network Security"
   abbreviation: "CNS"
@@ -188,7 +188,7 @@
   dates: !!seq
     - [2024-05-05, 2024-05-08]
   deadline:
-    - 2023-09-15
+    - 2023-09-28
 
 - name: "IEEE International Communications Quality and Reliability Workshop"
   abbreviation: "CQR"
