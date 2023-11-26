@@ -31,7 +31,7 @@
 
 - name: "IEEE Workshop on Machine Learning for Signal Processing"
   abbreviation: "MLSP"
-  url: "https://2023.ieeemlsp.org/"
+  url: "https://2024.ieeemlsp.org/"
   organization: "spsoc"
   topic: "Signal Processing"
   type: "workshop"
@@ -41,12 +41,14 @@
     special and regular single-track sessions.
   dates: !!seq
     - [2023-09-17, 2023-09-20]
+    - [2024-09-22, 2024-09-25]
   deadline:
     - 2023-04-28
+    - 2024-04-30
 
 - name: "IEEE Workshop on Signal Processing Advances in Wireless Communications"
   abbreviation: "SPAWC"
-  url: "https://2023spawc.aconf.org/index.html"
+  url: "https://spawc2024.org/"
   organization: "spsoc"
   topic: "Signal Processing"
   type: "workshop"
@@ -55,8 +57,10 @@
     systems and networks.
   dates: !!seq
     - [2023-09-25, 2023-09-28]
+    - [2024-09-10, 2024-09-13]
   deadline:
     - 2023-04-16
+    - 2024-04-11
 
 - name: "IEEE International Workshop on Information Forensics and Security"
   abbreviation: "WIFS"
