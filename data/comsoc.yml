@@ -14,6 +14,7 @@
   dates: !!seq
     - [2023-05-28, 2023-06-01]
     - [2024-06-09, 2024-06-13]
+    - [2025-06-08, 2025-06-14]
   deadline:
     - 2022-11-13
     - 2023-11-12
@@ -152,8 +153,10 @@
     research in communication theory from the world's leading researchers.
   dates: !!seq
     - [ 2023-07-02, 2023-07-05 ]
+    - [2024-05-19, 2024-05-22]
   deadline:
     - 2023-04-30
+    - 2024-03-15
 
 - name: "IEEE International Symposium on Personal, Indoor and Mobile Radio Communications"
   abbreviation: "PIMRC"
@@ -170,6 +173,7 @@
     - [2024-09-02, 2024-09-05]
   deadline:
     - 2023-03-18
+    - 2024-02-10
 
 - name: "IEEE International Conference on Machine Learning for Communication and Networking"
   abbreviation: "ICMLCN"
