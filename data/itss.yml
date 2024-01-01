@@ -18,7 +18,7 @@
 
 - name: "IEEE Intelligent Transportation Systems Conference"
   abbreviation: "ITSC"
-  url: "https://www.ieee-itsc.org/"
+  url: "https://www.ieee-itsc.org/2024"
   organization: "itss"
   topic: "Vehicular Technology"
   type: "flagship"
@@ -35,5 +35,7 @@
     and tutorial sessions to be offered the day before the symposium.
   dates: !!seq
     - [2023-09-24, 2023-09-28]
+    - [2024-09-24, 2024-09-27]
   deadline:
     - 2023-05-22
+    - 2024-04-15
