@@ -53,6 +53,7 @@
   dates: !!seq
     - [2023-12-04, 2023-12-08]
     - [2024-12-08, 2024-12-12]
+    - [2025-12-08, 2025-12-12]
   deadline:
     - 2023-05-21
 
@@ -70,7 +71,7 @@
 
 - name: "IEEE Consumer Communications & Networking Conference"
   abbreviation: "CCNC"
-  url: "https://ccnc2023.ieee-ccnc.org/"
+  url: "https://ieee-ccnc.org/"
   organization: "comsoc"
   topic: "Communications"
   type: "conference"
@@ -97,7 +98,7 @@
     and networking. Bringing researchers, practitioners together to present the
     most up-to-date achievements.
   dates: !!seq
-    - [ 2023-05-17, 2023-05-20 ]
+    - [2023-05-17, 2023-05-20]
     - [2024-05-20, 2024-05-23]
   deadline:
     - 2022-08-01
