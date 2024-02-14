@@ -13,8 +13,10 @@
     infotainment).
   dates: !!seq
     - [2023-04-26, 2023-04-28]
+    - [2024-05-29, 2024-05-31]
   deadline:
     - 2023-01-27
+    - 2024-03-01
 
 - name: "IEEE Intelligent Transportation Systems Conference"
   abbreviation: "ITSC"
