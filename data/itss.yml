@@ -1,6 +1,6 @@
 - name: "IEEE Vehicular Networking Conference"
   abbreviation: "VNC"
-  url: "http://www.ieee-vnc.org/2024/"
+  url: "http://ieee-vnc.org"
   organization: "itss;comsoc"
   topic: "Vehicular Technology"
   type: "conference"
@@ -16,7 +16,7 @@
     - [2024-05-29, 2024-05-31]
   deadline:
     - 2023-01-27
-    - 2024-03-01
+    - 2024-03-15
 
 - name: "IEEE Intelligent Transportation Systems Conference"
   abbreviation: "ITSC"
