@@ -177,6 +177,17 @@
     - 2023-03-18
     - 2024-02-24
 
+- name: "IEEE PIMRC Workshops"
+  abbreviation: "PIMRC Workshops"
+  url: "https://www.ieee-pimrc.org/"
+  organization: "comsoc"
+  topic: "Communications"
+  type: "workshop"
+  dates: !!seq
+    - [2024-09-02, 2024-09-05]
+  deadline:
+    - 2024-03-30
+
 - name: "IEEE International Conference on Machine Learning for Communication and Networking"
   abbreviation: "ICMLCN"
   url: "https://ieee-icmlcn.org/"
