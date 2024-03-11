@@ -59,7 +59,7 @@
 
 - name: "International Symposium on Modeling and Optimization in Mobile, Ad hoc, and Wireless Networks"
   abbreviation: "WiOpt"
-  url: "https://esd.sutd.edu.sg/wiopt2023/index.html"
+  url: "https://wiopt24.github.io/"
   topic: "Information Theory"
   type: "workshop"
   description: >
@@ -70,8 +70,10 @@
     robotic systems, Internet.
   dates: !!seq
     - [2023-08-24, 2023-08-27]
+    - [2024-10-21, 2024-10-24]
   deadline:
     - 2023-04-24
+    - 2024-06-15
 
 - name: "Allerton Conference on Communication, Control, and Computing"
   abbreviation: "Allerton"
