@@ -84,16 +84,18 @@
   dates: !!seq
     - [2023-01-08, 2023-01-11]
     - [2024-01-12, 2024-01-15]
+    - [2025-01-10, 2025-01-13]
   deadline:
     - 2022-08-28
     - 2023-08-31
+    - 2024-07-01
 
 - name: "IEEE International Conference on Computer Communications"
   abbreviation: "INFOCOM"
   url: "http://www.ieee-infocom.org/"
   organization: "comsoc"
   topic: "Communications"
-  type: "conference"
+  type: "flagship"
   description: >
     Addressing key issues related to recent advances in computer communications
     and networking. Bringing researchers, practitioners together to present the
@@ -141,8 +143,10 @@
     communication substrate.
   dates: !!seq
     - [ 2023-10-03, 2023-10-05 ]
+    - [2024-09-30, 2024-10-03]
   deadline:
     - 2023-06-12
+    - 2024-06-10
 
 - name: "IEEE Communications Theory Workshop"
   abbreviation: "CTW"
