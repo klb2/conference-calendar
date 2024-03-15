@@ -226,8 +226,10 @@
     in the development of best practices and relevant standards.
   dates: !!seq
     - [2023-10-23, 2023-10-26]
+    - [2024-09-09, 2024-09-12]
   deadline:
     - 2023-08-14
+    - 2024-05-13
 
 
 - name: "International Symposium on Wireless Communication Systems"
