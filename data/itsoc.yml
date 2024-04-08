@@ -87,5 +87,7 @@
     communication, control, and computing.
   dates: !!seq
     - [2023-09-26, 2023-09-29]
+    - [2024-09-25, 2024-09-27]
   deadline:
     - 2023-07-10
+    - 2024-07-08
