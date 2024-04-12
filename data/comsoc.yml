@@ -190,7 +190,7 @@
   dates: !!seq
     - [2024-09-02, 2024-09-05]
   deadline:
-    - 2024-04-13
+    - 2024-04-27
 
 - name: "IEEE International Conference on Machine Learning for Communication and Networking"
   abbreviation: "ICMLCN"
