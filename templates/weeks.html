@@ -22,7 +22,7 @@
 			{% for week in range(52) %}
 			{% set week = week+1 %}
 			<div class="week{% if week == this_week and year == this_year %} this-week{% endif %}{% if week < this_week and year <= this_year %} past-week{% endif %}">
-				<h1 class="weekdates">{{ week | weekdates }}</h1>
+				<h1 class="weekdates">{{ week | weekdates(year) }}</h1>
 				{% if week_data[week] %}
 				<div class="conferences">
 					{# <h2>Conferences</h2> #}
