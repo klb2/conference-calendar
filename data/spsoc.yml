@@ -1,6 +1,6 @@
 - name: "IEEE International Conference on Acoustics, Speech, and Signal Processing"
   abbreviation: "ICASSP"
-  url: "https://2024.ieeeicassp.org/"
+  url: "https://2025.ieeeicassp.org/"
   organization: "spsoc"
   topic: "Signal Processing"
   type: "flagship"
@@ -15,6 +15,7 @@
   deadline:
     - 2022-10-26
     - 2023-09-06
+    - 2024-09-09
 
 - name: "IEEE International Workshop on Computational Advances in Multi-Sensor Adaptive Processing"
   abbreviation: "CAMSAP"
