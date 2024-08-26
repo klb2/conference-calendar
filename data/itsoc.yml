@@ -1,7 +1,7 @@
 - name: "IEEE International Symposium on Information Theory"
   abbreviation: "ISIT"
   #url: "https://www.itsoc.org/conferences/isit"
-  url: "https://2024.ieee-isit.org"
+  url: "https://2025.ieee-isit.org"
   organization: "itsoc"
   topic: "Information Theory"
   type: "flagship"
@@ -18,9 +18,11 @@
   dates: !!seq
     - [2023-06-25, 2023-06-30]
     - [2024-07-07, 2024-07-12]
+    - [2025-06-22, 2025-06-27]
   deadline:
     - 2023-02-05
     - 2024-01-29
+    - 2025-01-15
 
 - name: "IEEE Information Theory Workshop"
   abbreviation: "ITW"
