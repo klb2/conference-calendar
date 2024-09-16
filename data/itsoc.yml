@@ -59,6 +59,7 @@
   deadline:
     - 2022-12-20
     - 2023-12-01
+    - 2024-12-07
 
 - name: "International Symposium on Modeling and Optimization in Mobile, Ad hoc, and Wireless Networks"
   abbreviation: "WiOpt"
