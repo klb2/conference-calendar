@@ -1,6 +1,6 @@
 - name: "European Signal Processing Conference"
   abbreviation: "EUSIPCO"
-  url: "https://eusipcolyon.sciencesconf.org/"
+  url: "https://eusipco2025.org/"
   organization: "eurasip"
   topic: "Signal Processing"
   type: "conference"
@@ -11,9 +11,11 @@
   dates: !!seq
     - [2023-09-04, 2023-09-08]
     - [2024-08-26, 2024-08-30]
+    - [2025-09-08, 2025-09-12]
   deadline:
     - 2023-02-20
     - 2024-03-14
+    - 2025-03-10
     
 - name: "European Conference on Networks and Communications"
   abbreviation: "EuCNC"
