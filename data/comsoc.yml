@@ -133,6 +133,17 @@
     - 2023-10-25
     - 2024-10-14
 
+- name: "IEEE WCNC Workshops"
+  abbreviation: "WCNC Workshops"
+  url: "https://www.ieee-wcnc.org/"
+  organization: "comsoc"
+  topic: "Communications"
+  type: "workshop"
+  dates: !!seq
+    - [2025-03-24, 2025-03-27]
+  deadline:
+    - 2024-12-01
+
 - name: "IEEE Conference on Communications and Network Security"
   abbreviation: "CNS"
   url: "http://www.ieee-cns.org/"
