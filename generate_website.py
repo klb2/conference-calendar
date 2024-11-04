@@ -1,5 +1,5 @@
 import os
-from datetime import date
+from datetime import date, datetime
 from typing import Iterable
 import itertools
 
@@ -69,6 +69,7 @@ def main():
     template = env.get_template("weeks.html")
 
     today = date.today()
+    now = datetime.now()
     timestamp = today.strftime("%B %d, %Y")
 
     import icalendar
@@ -84,7 +85,7 @@ def main():
             uid = "{:%Y%m%d}{:%Y%m%d}-{}".format(start_date, end_date,
                                                 conference["abbreviation"])
             event.add("uid", uid)
-            event.add("dtstamp", today)
+            event.add("dtstamp", now)
             event.add("summary", conference['name'])
             event.add("dtstart", start_date)
             event.add("dtend", end_date)
@@ -93,7 +94,7 @@ def main():
             event = icalendar.Event()
             uid = "{:%Y%m%d}-{}".format(deadline, conference["abbreviation"])
             event.add("uid", uid)
-            event.add("dtstamp", today)
+            event.add("dtstamp", now)
             #event.add("summary", conference['name'])
             event.add("summary", f"Deadline: {conference['abbreviation']}")
             event.add("dtstart", deadline)
