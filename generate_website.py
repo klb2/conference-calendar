@@ -94,7 +94,8 @@ def main():
             uid = "{:%Y%m%d}-{}".format(deadline, conference["abbreviation"])
             event.add("uid", uid)
             event.add("dtstamp", today)
-            event.add("summary", conference['name'])
+            #event.add("summary", conference['name'])
+            event.add("summary", f"Deadline: {conference['abbreviation']}")
             event.add("dtstart", deadline)
             cal_deadline.add_component(event)
     with open(os.path.join(DIR_PUBLIC, "conferences.ics"), "wb") as ics_file:
