@@ -1,4 +1,4 @@
-# IEEE Conference Calendar
+# Conference Calendar
 
 **Website: https://klb2.github.io/conference-calendar/**
 
@@ -8,17 +8,86 @@ communications, information theory, and signal processing.
 It is automatically updated every Sunday. However, the conference dates are
 entered manually at the moment.
 
-Note that this list is not complete and only features certain IEEE societies.
-Please report any issues/bugs that you find as a GitHub issue.
+Another feature is the automatic export of two iCalendars, which you can
+subscribe to in your calendar/mail app, such as Outlook, iOS Calendars,
+Thunderbird.
 
-If you would like to add more content/dates or fix bugs, please open up a pull
-request.
-Contributing guidelines can be found in [`CONTRIBUTING.md`](CONTRIBUTING.md).
+Note that this version only features conferences organized by certain IEEE
+societies. However, you can fork this project and adapt it to show the
+deadlines and dates of the conferences you are interested in. Details can be
+found below in the [Customization](#customization) section.
 
 
-## Usage/Development
-If you want to build the website on your own, you need to have Python3
-installed on your machine.
+
+## Usage
+If you only want to use the website, simply navigate to
+[https://klb2.github.io/conference-calendar/](https://klb2.github.io/conference-calendar/).
+
+### Subscribe to the Calendar
+The website automatically exports iCalendar files that you can subscribe to.
+The URLs are:
+- Conference dates: https://klb2.github.io/conference-calendar/conferences.ics
+- Submission deadlines: https://klb2.github.io/conference-calendar/deadlines.ics
+
+If you want to automatically get updates, you can add them as a subscription to
+your calendar/mail app. As an example, you can you can find the steps for iOS
+and Thunderbird below. However, the exact workflow depends on the program you
+are using.
+
+#### Thunderbird
+The following steps are for adding the calendar subscription in Thunderbird
+version 128.4.
+
+1. Open the Calendar (either click on it in the left sidebar or press Ctrl+3)
+2. Click on "New Calendar..." in the bottom left corner.
+3. Select and enter the following information in the dialog window:
+  1. Select "On the Network"
+  2. Leave the "Username" field empty. In "Location", enter the URL of the
+     calendar from above, e.g.,
+     `https://klb2.github.io/conference-calendar/conferences.ics` for the
+     calendar containing the conference dates. Check "This location doesn't
+     require credentials".
+  3. Make sure the calendar is selected and hit "Subscribe".
+
+
+#### iOS
+The following steps are for adding the calendar subscription to the iOS
+Calendar app (tested with iOS 18.1). Details can also be found at
+https://support.apple.com/guide/iphone/use-multiple-calendars-iph3d1110d4/ios.
+
+1. Open the Calendar app.
+2. Tap "Calendars" at the bottom of the screen.
+3. Tap "Add Calendar" in the bottom left corner.
+4. Tap "Add Subscription Calendar".
+5. Enter the URL of the calendar from above, e.g.,
+   `https://klb2.github.io/conference-calendar/conferences.ics` for the
+   calendar containing the conference dates.
+6. Click "Subscribe".
+7. Update the details according to your needs (such as the calendar name,
+   color, ...) and click "Add" in the top right corner.
+
+
+
+## Customization
+If you want to build your own custom conference calendar website, you can
+follow the steps below.
+
+1. Fork/copy/download this repository.
+2. Delete all existing files in the `data/` directory (assuming you do not want
+   to keep them.)
+3. Create a new `.yml` file in the `data/` directory that contains the
+   conferences you want to show in your calendar. As a guideline, you can use
+   the existing yaml files in this repository. Details about the individual
+   fields/attributes of a conference entry can be found in
+   [`CONTRIBUTING.md`](CONTRIBUTING.md#adding-more-ieee-conferences-or-fixing-dates).
+4. To compile/test everything locally, follow the steps in the
+   [Development](#development) section below. If you are using Github, the
+   website should be built automatically once a week and on new pushes.
+
+
+## Development
+If you want to build the website yourself, you need to have Python3 installed
+on your machine.
 
 To install all required packages simply run
 ```bash
@@ -31,3 +100,11 @@ python3 generate_website.py
 ```
 
 The final website can then be found as `public/index.html`.
+
+
+## Contributing
+Please report any issues/bugs that you find as a GitHub issue.
+
+If you would like to add more content/dates or fix bugs, please open up a pull
+request.
+Contributing guidelines can be found in [`CONTRIBUTING.md`](CONTRIBUTING.md).
