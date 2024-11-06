@@ -46,9 +46,11 @@ def create_conference_table(conf_list: Iterable, year: int=date.today().year):
         if deadlines is None:
             continue
         for deadline in deadlines:
-            if deadline.year != year:
+            deadline_iso = deadline.isocalendar()
+            deadline_sort_year = deadline_iso.year
+            if deadline_sort_year != year:
                 continue
-            deadline_week = deadline.isocalendar()[1]
+            deadline_week = deadline_iso.week
             deadline_data[deadline_week].append(conference)
     return week_data, deadline_data
 
@@ -125,4 +127,4 @@ def main():
             html_file.write(content)
 
 if __name__ == "__main__":
-    main()
+    results = main()
