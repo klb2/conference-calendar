@@ -1,6 +1,18 @@
 # Conference Calendar
 
+![build workflow](https://github.com/klb2/conference-calendar/actions/workflows/pages.yml/badge.svg)
+![license badge](https://img.shields.io/github/license/klb2/conference-calendar)
+
 **Website: https://klb2.github.io/conference-calendar/**
+
+## Features
+
+1. Two simple calendars with paper submission deadlines and conference dates
+2. Simple subscription to calendar in Outlook, iOS Calendar, Thunderbird, ...
+3. Automatic updates
+
+
+## Description
 
 This repository provides a simple website that lists the conference dates and
 deadlines for calls for papers for various IEEE conferences in the areas of
