@@ -26,7 +26,7 @@
 
 - name: "IEEE Information Theory Workshop"
   abbreviation: "ITW"
-  url: "http://www.ieee-itw2024.org/"
+  url: "http://www.ieee-itw2025.org/"
   organization: "itsoc"
   topic: "Information Theory"
   type: "workshop"
@@ -39,10 +39,11 @@
   dates: !!seq
     - [2023-04-23, 2023-04-28]
     - [2024-11-24, 2024-11-28]
-    - [2025-10-04, 2025-10-10]
+    - [2025-09-29, 2025-10-03]
   deadline:
     - 2022-12-18
     - 2024-05-07
+    - 2025-04-11
 
 - name: "Conference on Information Sciences and Systems"
   abbreviation: "CISS"
