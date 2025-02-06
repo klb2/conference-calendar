@@ -97,9 +97,11 @@ div.week h1 {
 }
 
 div.this-week {
+  /*
 	border: 5px solid;
 	border-color: var(--color-accent);
-	/*box-shadow: inset 5px var(--color-accent);*/
+  */
+	box-shadow: 0 0 0 5px inset var(--color-accent);
 }
 
 div.past-week {
