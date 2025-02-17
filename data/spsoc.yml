@@ -54,7 +54,7 @@
 
 - name: "IEEE Workshop on Signal Processing Advances in Wireless Communications"
   abbreviation: "SPAWC"
-  url: "https://www.imperial.ac.uk/media/imperial-college/research-centres-and-groups/intelligent-transmission/[Call-for-Papers]-SPAWC2025.pdf"
+  url: "https://2025.ieeespawc.org/"
   organization: "spsoc"
   topic: "Signal Processing"
   type: "workshop"
@@ -68,7 +68,7 @@
   deadline:
     - 2023-04-16
     - 2024-04-26
-    - 2025-03-15
+    - 2025-03-31
 
 - name: "IEEE International Workshop on Information Forensics and Security"
   abbreviation: "WIFS"
