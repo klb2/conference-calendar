@@ -21,7 +21,7 @@
 
 - name: "IEEE International Workshop on Computational Advances in Multi-Sensor Adaptive Processing"
   abbreviation: "CAMSAP"
-  url: "https://camsap23.ig.umons.ac.be/index.php"
+  url: "https://camsap25.ig.umons.ac.be"
   organization: "spsoc"
   topic: "Signal Processing"
   type: "workshop"
@@ -30,8 +30,10 @@
     researchers in the area, special focus sessions, and contributed papers.
   dates: !!seq
     - [2023-12-10, 2023-12-13]
+    - [2025-12-10, 2025-12-13]
   deadline:
     - 2023-07-29
+    - 2025-07-01
 
 - name: "IEEE Workshop on Machine Learning for Signal Processing"
   abbreviation: "MLSP"
