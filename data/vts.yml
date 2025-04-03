@@ -1,5 +1,5 @@
 - name: "IEEE Vehicular Technology Conference"
-  abbreviation: "VTC"
+  abbreviation: "VTC-Spring"
   url: "https://events.vtsociety.org/vtc2025-spring/"
   organization: "vts"
   topic: "Vehicular Technology"
@@ -15,15 +15,33 @@
     industry leaders sharing their perspectives on the latest technologies.
   dates: !!seq
     - [2023-06-20, 2023-06-23]
-    - [2023-10-10, 2023-10-13]
     - [2024-06-24, 2024-06-27]
-    - [2024-10-07, 2024-10-10]
     - [2025-06-14, 2025-06-20]
-    - [2025-10-19, 2025-10-22]
   deadline:
     - 2023-01-05
-    - 2023-07-30
     - 2024-01-18
-    - 2024-05-13
     - 2024-12-16
+
+- name: "IEEE Vehicular Technology Conference"
+  abbreviation: "VTC-Fall"
+  url: "https://events.vtsociety.org/vtc2025-fall/"
+  organization: "vts"
+  topic: "Vehicular Technology"
+  type: "flagship"
+  description: >
+    The Vehicular Technology Conference (VTC) is held twice a year, and
+    typically rotates locations between North America, Europe, and Asia.  This
+    semi-annual flagship conference attracts individuals from academia,
+    government, and industry to discuss and exchange ideas in the fields of
+    wireless, mobile, and vehicular technology. A typical VTC includes
+    world-class plenary speakers, tutorials, technical as well as application
+    sessions, workshops, and an innovative Industry Track, headlined by
+    industry leaders sharing their perspectives on the latest technologies.
+  dates: !!seq
+    - [2023-10-10, 2023-10-13]
+    - [2024-10-07, 2024-10-10]
+    - [2025-10-19, 2025-10-22]
+  deadline:
+    - 2023-07-30
+    - 2024-05-13
     - 2025-04-03
