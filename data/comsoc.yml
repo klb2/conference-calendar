@@ -217,8 +217,10 @@
   type: "workshop"
   dates: !!seq
     - [2024-09-02, 2024-09-05]
+    - [2025-09-01, 2025-09-04]
   deadline:
     - 2024-05-04
+    - 2025-06-15
 
 - name: "IEEE International Conference on Machine Learning for Communication and Networking"
   abbreviation: "ICMLCN"
