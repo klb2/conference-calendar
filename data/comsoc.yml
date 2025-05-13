@@ -92,10 +92,12 @@
     - [2023-01-08, 2023-01-11]
     - [2024-01-12, 2024-01-15]
     - [2025-01-10, 2025-01-13]
+    - [2026-01-09, 2026-01-12]
   deadline:
     - 2022-08-28
     - 2023-08-31
     - 2024-08-31
+    - 2025-07-01
 
 - name: "IEEE International Conference on Computer Communications"
   abbreviation: "INFOCOM"
