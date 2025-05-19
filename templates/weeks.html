@@ -59,10 +59,11 @@
 				</thead>
 				<tbody>
 				{% for conference in conferences | sort(attribute='abbreviation') %}
+        {% set conf_deadline = conference.get("deadline", ["&mdash;"])[-1] %}
 				<tr id="{{ conference.abbreviation }}">
 					<td><a href="{{ conference.url }}">{{ conference.name }}</a></td>
 					<td>{{ conference.abbreviation }}</td>
-					<td>{{ conference.get("deadline", ["&mdash;"])[-1] }}</td>
+          <td {% if conf_deadline < today %}class="past-deadline"{% endif %}>{{ conf_deadline }}</td>
 				</tr>
 				{% endfor %}
 				</tbody>

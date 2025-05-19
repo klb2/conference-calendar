@@ -114,6 +114,10 @@ div.past-week {
 	filter: brightness(0.8);
 }
 
+.past-deadline {
+  color: #999;
+}
+
 ul.conflist {
 	list-style-type: none;
 	padding: 0;
