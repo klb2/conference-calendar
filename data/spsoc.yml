@@ -75,7 +75,7 @@
 
 - name: "IEEE International Workshop on Information Forensics and Security"
   abbreviation: "WIFS"
-  url: "https://wifs2024.uniroma3.it/"
+  url: "https://www.ieeewifs2025.org/"
   organization: "spsoc"
   topic: "Signal Processing"
   type: "workshop"
@@ -86,9 +86,11 @@
   dates: !!seq
     - [2023-12-04, 2023-12-07]
     - [2024-12-02, 2024-12-05]
+    - [2025-12-01, 2025-12-04]
   deadline:
     - 2023-07-16
     - 2024-07-15
+    - 2025-06-30
 
 - name: "Asilomar Conference on Signals, Systems, and Computers"
   abbreviation: "Asilomar"
