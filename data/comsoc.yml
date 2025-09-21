@@ -248,9 +248,11 @@
   dates: !!seq
     - [2024-05-05, 2024-05-08]
     - [2025-05-26, 2025-05-29]
+    - [2026-03-30, 2026-04-02]
   deadline:
     - 2023-10-08
     - 2024-12-13
+    - 2025-10-30
 
 - name: "IEEE International Communications Quality and Reliability Workshop"
   abbreviation: "CQR"
