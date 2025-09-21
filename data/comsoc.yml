@@ -194,10 +194,12 @@
     - [ 2023-07-02, 2023-07-05 ]
     - [2024-05-19, 2024-05-22]
     - [2025-05-05, 2025-05-07]
+    - [2026-05-17, 2026-05-20]
   deadline:
     - 2023-04-30
     - 2024-03-22
     - 2025-01-09
+    - 2026-01-09
 
 - name: "IEEE International Symposium on Personal, Indoor and Mobile Radio Communications"
   abbreviation: "PIMRC"
