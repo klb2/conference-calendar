@@ -278,7 +278,7 @@
 
 - name: "International Symposium on Wireless Communication Systems"
   abbreviation: "ISWCS"
-  url: "http://iswcs2024.usuarios.rdc.puc-rio.br/"
+  url: "http://iswcs.org/iswcs2026/"
   organization: "comsoc"
   topic: "Communications"
   type: "workshop"
@@ -289,5 +289,7 @@
     the field of wireless communications, networking and signal processing.
   dates: !!seq
     - [2024-07-14, 2024-07-17]
+    - [2026-08-24, 2026-08-26]
   deadline:
     - 2024-04-14
+    - 2026-05-15
