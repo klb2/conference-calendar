@@ -1,6 +1,6 @@
 - name: "European Signal Processing Conference"
   abbreviation: "EUSIPCO"
-  url: "https://eusipco2025.org/"
+  url: "https://eusipco2026.org/"
   organization: "eurasip"
   topic: "Signal Processing"
   type: "conference"
@@ -12,11 +12,12 @@
     - [2023-09-04, 2023-09-08]
     - [2024-08-26, 2024-08-30]
     - [2025-09-08, 2025-09-12]
+    - [2026-08-31, 2026-09-04]
   deadline:
     - 2023-02-20
     - 2024-03-14
     - 2025-03-13
-    
+
 - name: "European Conference on Networks and Communications"
   abbreviation: "EuCNC"
   url: "https://www.eucnc.eu/"
@@ -27,7 +28,9 @@
     - [2023-06-06, 2023-06-09]
     - [2024-06-03, 2024-06-06]
     - [2025-06-03, 2025-06-06]
+    - [2026-06-02, 2026-06-05]
   deadline:
     - 2023-02-10
     - 2024-02-16
     - 2025-02-14
+    - 2026-01-23
