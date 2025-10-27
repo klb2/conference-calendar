@@ -153,8 +153,10 @@
   type: "workshop"
   dates: !!seq
     - [2025-03-24, 2025-03-27]
+    - [2026-04-13, 2026-04-16]
   deadline:
     - 2024-12-15
+    - 2025-12-01
 
 - name: "IEEE Conference on Communications and Network Security"
   abbreviation: "CNS"
