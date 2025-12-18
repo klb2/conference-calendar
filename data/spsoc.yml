@@ -68,11 +68,12 @@
     - [2023-09-25, 2023-09-28]
     - [2024-09-10, 2024-09-13]
     - [2025-07-07, 2025-07-10]
-    - [2026-09-07, 2025-09-09]
+    - [2026-09-06, 2025-09-09]
   deadline:
     - 2023-04-16
     - 2024-04-26
     - 2025-04-13
+    - 2026-03-22
 
 - name: "IEEE International Workshop on Information Forensics and Security"
   abbreviation: "WIFS"
