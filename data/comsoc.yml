@@ -298,3 +298,25 @@
   deadline:
     - 2024-04-14
     - 2026-05-15
+
+- name: "IEEE International Conference on Sensing, Communication, and Networking"
+  abbreviation: "SECON"
+  url: "https://ieee-secon.org/"
+  organization: "comsoc"
+  topic: "Communications"
+  type: "conference"
+  description: >
+    IEEE International Conference on Sensing, Communication, and Networking
+    (SECON) provides a forum to exchange ideas, techniques, and applications,
+    discuss best practices, raise awareness, and share experiences among
+    researchers, practitioners, standards developers and policy makers working
+    in sensor, ad hoc, and mesh networks and systems. SECON focuses on the
+    latest advancements in sensing, communication, and networking technologies.
+    Key topics include wireless communications, network protocols, IoT
+    applications, cybersecurity, and data analytics. The conference features
+    presentations from leading researchers and industry experts, fostering
+    knowledge exchange and networking.
+  dates: !!seq
+    - [2026-04-27, 2026-04-29]
+  deadline: !!seq
+    - 2025-12-30
