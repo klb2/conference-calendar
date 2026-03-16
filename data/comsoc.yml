@@ -321,3 +321,24 @@
     - [2026-04-27, 2026-04-29]
   deadline: !!seq
     - 2025-12-30
+
+- name: "IEEE Conference on Integrated Sensing and Communications"
+  abbreviation: "ISAC"
+  url: "https://isac-ieee.org/"
+  organization: "comsoc"
+  topic: "Communications"
+  type: "conference"
+  description: >
+    The IEEE Conference on Integrated Sensing and Communications 2026 (ISAC) is
+    the first large event dedicated to integrated sensing and communications
+    and its applications, which is sponsored by the IEEE Communications, Signal
+    Processing, and Aerospace and Electronic Systems Societies.
+    The organizing committee invites the international community to contribute
+    with state-of-the-art developments in the field. IEEE ISAC 2026 will
+    feature plenary talks by leading researchers in the field as well as
+    special and regular technical sessions with presentations by participants,
+    as well as tutorials and panels.
+  dates: !!seq
+    - [2026-11-16, 2026-11-18]
+  deadline: !!seq
+    - 2026-06-01
