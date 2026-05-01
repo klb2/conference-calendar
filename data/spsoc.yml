@@ -77,7 +77,7 @@
 
 - name: "IEEE International Workshop on Information Forensics and Security"
   abbreviation: "WIFS"
-  url: "https://www.ieeewifs2025.org/"
+  url: "https://wifs2026.utt.fr/"
   organization: "spsoc"
   topic: "Signal Processing"
   type: "workshop"
@@ -94,6 +94,7 @@
     - 2023-07-16
     - 2024-07-15
     - 2025-06-30
+    - 2026-07-15
 
 - name: "Asilomar Conference on Signals, Systems, and Computers"
   abbreviation: "Asilomar"
