@@ -52,7 +52,7 @@
 
 - name: "Conference on Information Sciences and Systems"
   abbreviation: "CISS"
-  url: "https://ee-ciss.princeton.edu/"
+  url: "https://ciss.jhu.edu/"
   topic: "Information Theory"
   type: "workshop"
   description: >
@@ -63,6 +63,7 @@
     - [2023-03-22, 2023-03-24]
     - [2024-03-13, 2024-03-15]
     - [2025-03-19, 2025-03-21]
+    - [2027-03-24, 2027-03-26]
   deadline:
     - 2022-12-20
     - 2023-12-01
