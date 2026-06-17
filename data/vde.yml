@@ -25,7 +25,7 @@
 
 - name: "Conference on Systems, Communications and Coding"
   abbreviation: "SCC"
-  url: "https://www.scc2025.net/"
+  url: "https://scc2027.uni-bremen.de/"
   organization: "vde"
   topic: "Communications"
   type: "workshop"
@@ -37,6 +37,8 @@
   dates: !!seq
     - [2023-02-27, 2023-03-03]
     - [2025-03-10, 2025-03-13]
+    - [2027-03-15, 2027-03-18]
   deadline:
     - 2022-11-21
     - 2024-10-27
+    - 2026-10-16
