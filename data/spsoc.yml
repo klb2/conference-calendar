@@ -41,7 +41,7 @@
 
 - name: "IEEE Workshop on Machine Learning for Signal Processing"
   abbreviation: "MLSP"
-  url: "https://2025.ieeemlsp.org/"
+  url: "https://mlsp26.ieeesps.org/"
   organization: "spsoc"
   topic: "Signal Processing"
   type: "workshop"
@@ -53,10 +53,12 @@
     - [2023-09-17, 2023-09-20]
     - [2024-09-22, 2024-09-25]
     - [2025-08-31, 2025-09-03]
+    - [2026-09-28, 2026-10-01]
   deadline:
     - 2023-04-28
     - 2024-05-14
     - 2025-05-06
+    - 2026-06-12
 
 - name: "IEEE Workshop on Signal Processing Advances in Wireless Communications"
   abbreviation: "SPAWC"
