@@ -35,11 +35,13 @@
     - [2024-06-09, 2024-06-13]
     - [2025-06-08, 2025-06-12]
     - [2026-05-24, 2026-05-28]
+    - [2027-05-30, 2027-06-03]
   deadline:
     - 2023-02-03
     - 2024-02-04
     - 2025-01-31
     - 2026-01-31
+    - 2027-01-17
 
 - name: "IEEE Global Communications Conference"
   abbreviation: "GLOBECOM"
@@ -336,8 +338,10 @@
     knowledge exchange and networking.
   dates: !!seq
     - [2026-04-27, 2026-04-29]
+    - [2027-05-05, 2027-05-07]
   deadline: !!seq
     - 2025-12-30
+    - 2026-11-30
 
 - name: "IEEE Conference on Integrated Sensing and Communications"
   abbreviation: "ISAC"
