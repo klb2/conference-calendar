@@ -24,7 +24,7 @@
 
 - name: "IEEE Intelligent Transportation Systems Conference"
   abbreviation: "ITSC"
-  url: "https://www.ieee-itsc.org/2026"
+  url: "https://www.ieee-itsc.org/2027"
   organization: "itss"
   topic: "Vehicular Technology"
   type: "flagship"
@@ -44,8 +44,10 @@
     - [2024-09-24, 2024-09-27]
     - [2025-11-18, 2025-11-21]
     - [2026-09-15, 2026-09-18]
+    - [2027-09-21, 2027-09-24]
   deadline:
     - 2023-05-22
     - 2024-05-01
     - 2025-05-01
     - 2026-03-01
+    - 2027-03-01
