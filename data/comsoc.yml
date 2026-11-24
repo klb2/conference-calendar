@@ -216,11 +216,13 @@
     - [2024-05-19, 2024-05-22]
     - [2025-05-05, 2025-05-07]
     - [2026-05-17, 2026-05-20]
+    - [2027-05-10, 2027-05-12]
   deadline:
     - 2023-04-30
     - 2024-03-22
     - 2025-01-09
     - 2026-03-10
+    - 2027-03-13
 
 - name: "IEEE International Symposium on Personal, Indoor and Mobile Radio Communications"
   abbreviation: "PIMRC"
@@ -279,10 +281,12 @@
     - [2024-05-05, 2024-05-08]
     - [2025-05-26, 2025-05-29]
     - [2026-03-30, 2026-04-02]
+    - [2027-06-14, 2027-06-16]
   deadline:
     - 2023-10-08
     - 2024-12-13
     - 2025-12-10
+    - 2026-12-30
 
 - name: "IEEE International Communications Quality and Reliability Workshop"
   abbreviation: "CQR"
