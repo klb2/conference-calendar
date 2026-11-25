@@ -80,18 +80,12 @@ section.year {
 }
 
 section.weeks {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	align-items: stretch;
-	align-content: stretch;
-	gap: 10px 10px;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
 }
 
 div.week {
-	/*border: 2px black solid;*/
-	width: 20%;
-	flex-grow: 1;
 	padding: 5px 15px;
 	background-color: var(--color-bg-dark);
 }
@@ -160,4 +154,18 @@ ul.legend-list li {
 }
 .workshop {
 	filter: saturate(80%);
+}
+
+/* Responsive Layout for smaller screens */
+
+@media (max-width: 650px) {
+  section.weeks {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 400px) {
+  section.weeks {
+    grid-template-columns: 1fr;
+  }
 }
