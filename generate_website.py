@@ -16,6 +16,11 @@ from constants import (
 
 FORMATTER_DATE = lambda x: date.strftime(x, "%B %d, %Y")
 
+
+def get_max_week_in_year(year: int) -> int:
+    return date(year, 12, 28).isocalendar().week
+
+
 def load_data():
     yml_files = [x for x in os.listdir(DIR_DATA) if x.endswith(".yml")]
     data = []
@@ -26,9 +31,11 @@ def load_data():
             data.extend(yaml.safe_load(yml_file))
     return data
 
+
 def create_conference_table(conf_list: Iterable, year: int = date.today().year):
-    week_data = {k+1: [] for k in range(52)}
-    deadline_data = {k+1: [] for k in range(52)}
+    _max_weeks = get_max_week_in_year(year)
+    week_data = {k + 1: [] for k in range(_max_weeks)}
+    deadline_data = {k + 1: [] for k in range(_max_weeks)}
     for conference in conf_list:
         # conference["type"] = MAP_CONF_TYPE.get(conference.get("type", "Unknown"), "unknown")
         conference["type"] = conference.get("type", "unknown")
@@ -72,6 +79,7 @@ def main():
 
     env = jinja2.Environment(loader=jinja2.FileSystemLoader(DIR_TEMPLATES))
     env.filters["weekdates"] = week_days_format
+    env.filters["get_max_week_in_year"] = get_max_week_in_year
     # template = env.get_template("index.html")
     template = env.get_template("weeks.html")
 

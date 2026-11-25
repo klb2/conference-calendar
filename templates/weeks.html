@@ -19,7 +19,8 @@
 		<section class="year">
 			<h2>{{ year }}</h2>
 			<section class="weeks">
-			{% for week in range(52) %}
+      {% set max_week = year | get_max_week_in_year %}
+      {% for week in range(max_week) %}
 			{% set week = week+1 %}
 			<div class="week{% if week == this_week and year == this_year %} this-week{% endif %}{% if week < this_week and year <= this_year %} past-week{% endif %}">
 				<h1 class="weekdates">{{ week | weekdates(year) }}</h1>
